@@ -13,9 +13,6 @@
 		7022ACB621AD0CF300A4BB8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7022ACB521AD0CF300A4BB8A /* Assets.xcassets */; };
 		7022ACB921AD0CF300A4BB8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7022ACB721AD0CF300A4BB8A /* LaunchScreen.storyboard */; };
 		7022ACBC21AD0CF300A4BB8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7022ACBB21AD0CF300A4BB8A /* main.m */; };
-		7022ACC621AD0CF300A4BB8A /* AutomaticModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7022ACC521AD0CF300A4BB8A /* AutomaticModelTests.m */; };
-		7022ACD121AD0CF300A4BB8A /* AutomaticModelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7022ACD021AD0CF300A4BB8A /* AutomaticModelUITests.m */; };
-		7022ACE021AD0D2A00A4BB8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7022ACDF21AD0D2A00A4BB8A /* ViewController.m */; };
 		7022AD5921AD0D9800A4BB8A /* BaseNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7022ACE221AD0D9700A4BB8A /* BaseNetManager.m */; };
 		7022AD5A21AD0D9800A4BB8A /* NetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7022ACE321AD0D9700A4BB8A /* NetManager.m */; };
 		7022AD5B21AD0D9800A4BB8A /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 7022ACE821AD0D9800A4BB8A /* UIScrollView+MJRefresh.m */; };
@@ -77,6 +74,7 @@
 		7022ADE021AD10EB00A4BB8A /* NSObject+Parse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7022ADDA21AD10EA00A4BB8A /* NSObject+Parse.m */; };
 		7022ADE121AD10EB00A4BB8A /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7022ADDB21AD10EA00A4BB8A /* NSObject+YYModel.m */; };
 		7022ADE421AD18A100A4BB8A /* MJRootClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7022ADE221AD18A100A4BB8A /* MJRootClass.m */; };
+		7022ADEF21AD893E00A4BB8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7022ADEE21AD893E00A4BB8A /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,13 +106,7 @@
 		7022ACBA21AD0CF300A4BB8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7022ACBB21AD0CF300A4BB8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7022ACC121AD0CF300A4BB8A /* AutomaticModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutomaticModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7022ACC521AD0CF300A4BB8A /* AutomaticModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutomaticModelTests.m; sourceTree = "<group>"; };
-		7022ACC721AD0CF300A4BB8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7022ACCC21AD0CF300A4BB8A /* AutomaticModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutomaticModelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7022ACD021AD0CF300A4BB8A /* AutomaticModelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutomaticModelUITests.m; sourceTree = "<group>"; };
-		7022ACD221AD0CF300A4BB8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7022ACDE21AD0D2A00A4BB8A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "../../../Desktop/第三阶段/Day08/Day08_TopNews/Day08_TopNews/ViewController.h"; sourceTree = "<group>"; };
-		7022ACDF21AD0D2A00A4BB8A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "../../../Desktop/第三阶段/Day08/Day08_TopNews/Day08_TopNews/ViewController.m"; sourceTree = "<group>"; };
 		7022ACE221AD0D9700A4BB8A /* BaseNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNetManager.m; sourceTree = "<group>"; };
 		7022ACE321AD0D9700A4BB8A /* NetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetManager.m; sourceTree = "<group>"; };
 		7022ACE421AD0D9700A4BB8A /* NetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetManager.h; sourceTree = "<group>"; };
@@ -246,6 +238,8 @@
 		7022ADDD21AD10EA00A4BB8A /* NSObject+Parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Parse.h"; sourceTree = "<group>"; };
 		7022ADE221AD18A100A4BB8A /* MJRootClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRootClass.m; sourceTree = "<group>"; };
 		7022ADE321AD18A100A4BB8A /* MJRootClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRootClass.h; sourceTree = "<group>"; };
+		7022ADED21AD893E00A4BB8A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7022ADEE21AD893E00A4BB8A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C79ABC4A4D4B5D04D99C757A /* libPods-AutomaticModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutomaticModel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -279,8 +273,6 @@
 			isa = PBXGroup;
 			children = (
 				7022ACAB21AD0CF000A4BB8A /* AutomaticModel */,
-				7022ACC421AD0CF300A4BB8A /* AutomaticModelTests */,
-				7022ACCF21AD0CF300A4BB8A /* AutomaticModelUITests */,
 				7022ACAA21AD0CF000A4BB8A /* Products */,
 				B36E5ADA3554481ED36A6E18 /* Pods */,
 				7FB66CFE8A7C2DE176305683 /* Frameworks */,
@@ -302,9 +294,9 @@
 			children = (
 				7022ACAC21AD0CF000A4BB8A /* AppDelegate.h */,
 				7022ACAD21AD0CF000A4BB8A /* AppDelegate.m */,
+				7022ADED21AD893E00A4BB8A /* ViewController.h */,
+				7022ADEE21AD893E00A4BB8A /* ViewController.m */,
 				7022ACB221AD0CF000A4BB8A /* Main.storyboard */,
-				7022ACDE21AD0D2A00A4BB8A /* ViewController.h */,
-				7022ACDF21AD0D2A00A4BB8A /* ViewController.m */,
 				7022ACB521AD0CF300A4BB8A /* Assets.xcassets */,
 				7022ACE121AD0D9700A4BB8A /* NetManager */,
 				7022ADA521AD10CC00A4BB8A /* Category */,
@@ -319,24 +311,6 @@
 				7022ADA421AD0EAA00A4BB8A /* PrefixHeader.pch */,
 			);
 			path = AutomaticModel;
-			sourceTree = "<group>";
-		};
-		7022ACC421AD0CF300A4BB8A /* AutomaticModelTests */ = {
-			isa = PBXGroup;
-			children = (
-				7022ACC521AD0CF300A4BB8A /* AutomaticModelTests.m */,
-				7022ACC721AD0CF300A4BB8A /* Info.plist */,
-			);
-			path = AutomaticModelTests;
-			sourceTree = "<group>";
-		};
-		7022ACCF21AD0CF300A4BB8A /* AutomaticModelUITests */ = {
-			isa = PBXGroup;
-			children = (
-				7022ACD021AD0CF300A4BB8A /* AutomaticModelUITests.m */,
-				7022ACD221AD0CF300A4BB8A /* Info.plist */,
-			);
-			path = AutomaticModelUITests;
 			sourceTree = "<group>";
 		};
 		7022ACE121AD0D9700A4BB8A /* NetManager */ = {
@@ -612,7 +586,6 @@
 				630264CF3B866BF39F7EDB9E /* Pods-AutomaticModel.debug.xcconfig */,
 				423E46428B6C0CC15389B33F /* Pods-AutomaticModel.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -773,6 +746,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7022ADEF21AD893E00A4BB8A /* ViewController.m in Sources */,
 				7022AD9F21AD0DD800A4BB8A /* SQPrintJsonLog.m in Sources */,
 				7022AD5921AD0D9800A4BB8A /* BaseNetManager.m in Sources */,
 				7022AD6021AD0D9800A4BB8A /* UIView+MJExtension.m in Sources */,
@@ -827,7 +801,6 @@
 				7022AD8B21AD0D9800A4BB8A /* UIView+WebCache.m in Sources */,
 				7022AD8621AD0D9800A4BB8A /* NSData+ImageContentType.m in Sources */,
 				7022AD7121AD0D9800A4BB8A /* MASCompositeConstraint.m in Sources */,
-				7022ACE021AD0D2A00A4BB8A /* ViewController.m in Sources */,
 				7022AD8521AD0D9800A4BB8A /* SDWebImageDownloaderOperation.m in Sources */,
 				7022AD6621AD0D9800A4BB8A /* MJRefreshAutoNormalFooter.m in Sources */,
 				7022ADE021AD10EB00A4BB8A /* NSObject+Parse.m in Sources */,
@@ -843,7 +816,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7022ACC621AD0CF300A4BB8A /* AutomaticModelTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -851,7 +823,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7022ACD121AD0CF300A4BB8A /* AutomaticModelUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1009,7 +980,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/liuzixuan/Downloads/AutomaticModel/AutomaticModel/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = /Users/liuzixuan/Downloads/AutomaticModel/AutomaticJson/AutomaticModel/PrefixHeader.pch;
 				INFOPLIST_FILE = AutomaticModel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1028,7 +999,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/liuzixuan/Downloads/AutomaticModel/AutomaticModel/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = /Users/liuzixuan/Downloads/AutomaticModel/AutomaticJson/AutomaticModel/PrefixHeader.pch;
 				INFOPLIST_FILE = AutomaticModel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
